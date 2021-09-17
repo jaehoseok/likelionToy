@@ -1,0 +1,33 @@
+.Header {
+    width: 100%;
+    background-color: #EC407A;
+}
+
+.Header > .Header-contents {
+    width: 1280px;
+    display: flex;
+    padding: 2px 10px;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    box-sizing: border-box;
+    color: white;
+}
+
+.Header-contents > a {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.Header-contents > p {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.Header > div > a:hover, 
+.Header > div > a:visited,
+.Header > div > a:focus,
+.Header > div > a:link {
+    color: white;
+    text-decoration: none;
+}

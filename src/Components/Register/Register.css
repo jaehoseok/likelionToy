@@ -1,0 +1,39 @@
+.Register {
+    width: 100%;
+    height: 84vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.Register > div > p {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 3px;
+}
+
+.Register > div > div > input {
+    width: 20em;
+    height: 2em;
+    border: 1px solid #EC407A;
+    border-radius: 5px;
+    padding: 2px 8px;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+
+.Register > div > .password-msg {
+    height: 1em;
+    font-size: 3px;
+    color: red;
+}
+
+.Register > div > .Register-btn {
+    width: 20em;
+    height: 3em;
+    background-color: #EC407A;
+    color: white;
+    margin-top: 3em;
+    font-weight: 700;
+}
