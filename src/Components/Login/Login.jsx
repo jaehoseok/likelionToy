@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 
 import './Login.css';
 
-function Login() {
+function Login(props) {
 
     const [ID, setID] = useState()
     const [PASSWORD, setPASSWORD] = useState()
@@ -11,6 +11,7 @@ function Login() {
     const handleLogin = () => {
         console.log('ID :',ID);
         console.log('PASSWOD :',PASSWORD);
+        props.history.push('/LandingPage')
     }
 
     return (

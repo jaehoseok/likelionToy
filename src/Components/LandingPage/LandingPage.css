@@ -1,0 +1,14 @@
+.LandingPage {
+    width: 100%;
+}
+
+.LandingPage > .LandingPage-content {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.LandingPage > .LandingPage-content {
+    min-height: 50em;
+}

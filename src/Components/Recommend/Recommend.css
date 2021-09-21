@@ -1,0 +1,13 @@
+.Recommend {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.Recommend > div {
+    border: 1px solid black;
+    width: 680px;
+    padding: 2rem;
+}
